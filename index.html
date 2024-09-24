@@ -5,10 +5,10 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Resturant-Ecommerce</title>
+  <title>Restaurant-Ecommerce</title>
 
-  <meta name="description" content="Resturant-Ecommerce" />
-  <meta name="keywords" content="Resturant-Ecommerce" />
+  <meta name="description" content="Restaurant-Ecommerce" />
+  <meta name="keywords" content="Restaurant-Ecommerce" />
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
@@ -42,11 +42,11 @@
             <a class="nav-link" href="menu.html">Menu</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact Us</a>
+            <a class="nav-link" href="contact_us.html">Contact Us</a>
           </li>
         </ul>
         <div class="end_nav">
-          <a href="">
+          <a href="carts.html">
             <img src="./images/shop.png" alt="shop">
           </a>
           <button class=" btn_page2" type="button" style="font-size: 16px;">
@@ -59,7 +59,7 @@
               data-bs-toggle="dropdown"
               aria-expanded="false"
             >
-            Hi, Donia
+            Hi, AQuadic
             </h4>
 
             <ul class="dropdown-menu">
@@ -92,7 +92,7 @@
         <h2 class="f-m">Are You Hungry ? </h2>
         <h3 class="f-b">Don’t Wait !</h3>
         <h4>Let’s Start To Order Food NOW</h4>
-        <a href="" class="btn_page2">Order Now</a>
+        <a href="menu.html" class="btn_page2">Order Now</a>
       </div>
       <div class="part2">
         <div class="images">
@@ -103,10 +103,10 @@
 
       </div>
       <div class="part3">
-        <a href=""><img src="./images/facebook.webp" alt="facebook"></a>
-        <a href=""><img src="./images/insta.webp" alt="insta"></a>
-        <a href=""><img src="./images/twitter.webp" alt="twitter"></a>
-        <a href=""><img src="./images/linkedin.webp" alt="linkedin"></a>
+        <a href="https://facebook.com/aquadicsoftwares"><img src="./images/facebook.webp" alt="facebook"></a>
+        <a href="https://instagram.com/aquadicsoftwares"><img src="./images/insta.webp" alt="insta"></a>
+        <a href="https://x.com/aquadicsoftwares"><img src="./images/twitter.webp" alt="twitter"></a>
+        <a href="https://linkedin.com/aquadicsoftwares"><img src="./images/linkedin.webp" alt="linkedin"></a>
       </div>
     </div>
   </section>
@@ -117,47 +117,49 @@
 
     <div class="menu menu1">
       <div class="owl-carousel owl-theme">
-
-        <div class="item">
-          <img src="./images/meal2.webp" class="img_meal" alt="meal">
-          <div class="name">
-            <h2 class="f-m">Exclusive Offers</h2>
-          </div>
-        </div>
+       <a href="menu.html">
+         <div class="item">
+           <img src="./images/meal2.webp" class="img_meal" alt="meal">
+           <div class="name">
+             <h2 class="f-m">Exclusive Offers</h2>
+           </div>
+         </div>
+       </a>
+        <a href="menu.html">
         <div class="item">
           <img src="./images/meal5.webp" class="img_meal" alt="meal">
           <div class="name">
             <h2 class="f-m">For One</h2>
           </div>
         </div>
+        </a>
+        <a href="menu.html">
         <div class="item">
           <img src="./images/meal6.webp" class="img_meal" alt="meal">
           <div class="name">
             <h2 class="f-m">For Sharing</h2>
           </div>
         </div>
+        </a>
+        <a href="menu.html">
         <div class="item">
           <img src="./images/meal7.webp" class="img_meal" alt="meal">
           <div class="name">
             <h2 class="f-m">Desserts</h2>
           </div>
         </div>
-
-
-
-
+        </a>
       </div>
     </div>
-    </div>
+
   </section>
   <section class="owl-menu container m-b">
     <div class="head_owl">
       <h1 class="head_title">Exclusive Deals</h1>
-      <a href="">See All</a>
+      <a href="menu.html">See All</a>
     </div>
     <div class="menu">
       <div class="owl-carousel owl-theme">
-
         <div class="item">
           <img src="./images/meal1.webp" class="img_meal" alt="meal" data-bs-toggle="modal"
             data-bs-target="#exampleModal">
@@ -165,11 +167,8 @@
             <h2 class="f-m">Meal Name</h2>
             <div class="love">
               <div class="state">
-
               </div>
-             
             </div>
-
           </div>
           <h3 class="f-s">Mighty Zinger Sandwich + Rizo + Coleslaw+ Drink</h3>
           <div class="price_customize">
@@ -182,13 +181,14 @@
               <img src="./images/ArrowMeal.svg" alt="ArrowMeal">
             </div>
           </div>
-          <button class="add_to btn_page2">+ Add To Cart</button>
+          <button data-bs-toggle="modal" data-bs-target="#exampleModal" class="add_to btn_page2">+ Add To Cart</button>
           <div class="counter hide">
             <button class="dec" name="del">-</button>
             <p class="amount"  name="num-tv">1</p>
             <button class="inc" name="add">+</button>
           </div>
         </div>
+
         <div class="item">
           <img src="./images/meal2.webp" class="img_meal" data-bs-toggle="modal" data-bs-target="#exampleModal"
             alt="meal">
@@ -196,11 +196,8 @@
             <h2 class="f-m">Meal Name</h2>
                <div class="love">
               <div class="state">
-
               </div>
-             
             </div>
-
           </div>
           <h3 class="f-s">Mighty Zinger Sandwich + Rizo + Coleslaw+ Drink</h3>
           <div class="price_customize">
@@ -213,13 +210,14 @@
               <img src="./images/ArrowMeal.svg" alt="ArrowMeal">
             </div>
           </div>
-          <button class="add_to btn_page2">+ Add To Cart</button>
+          <button data-bs-toggle="modal" data-bs-target="#exampleModal" class="add_to btn_page2">+ Add To Cart</button>
           <div class="counter hide">
             <button class="dec" name="del">-</button>
             <p class="amount"  name="num-tv">1</p>
             <button class="inc" name="add">+</button>
           </div>
         </div>
+
         <div class="item">
           <img src="./images/meal3.webp" class="img_meal" data-bs-toggle="modal" data-bs-target="#exampleModal"
             alt="meal">
@@ -227,11 +225,8 @@
             <h2 class="f-m">Meal Name</h2>
                <div class="love">
               <div class="state">
-
               </div>
-             
             </div>
-
           </div>
           <h3 class="f-s">Mighty Zinger Sandwich + Rizo + Coleslaw+ Drink</h3>
           <div class="price_customize">
@@ -244,13 +239,14 @@
               <img src="./images/ArrowMeal.svg" alt="ArrowMeal">
             </div>
           </div>
-          <button class="add_to btn_page2">+ Add To Cart</button>
+          <button data-bs-toggle="modal" data-bs-target="#exampleModal" class="add_to btn_page2">+ Add To Cart</button>
           <div class="counter hide">
             <button class="dec" name="del">-</button>
             <p class="amount"  name="num-tv">1</p>
             <button class="inc" name="add">+</button>
           </div>
         </div>
+
         <div class="item">
           <img src="./images/meal4.webp" class="img_meal" data-bs-toggle="modal" data-bs-target="#exampleModal"
             alt="meal">
@@ -258,11 +254,8 @@
             <h2 class="f-m">Meal Name</h2>
                <div class="love">
               <div class="state">
-
               </div>
-             
             </div>
-
           </div>
           <h3 class="f-s">Mighty Zinger Sandwich + Rizo + Coleslaw+ Drink</h3>
           <div class="price_customize">
@@ -275,13 +268,14 @@
               <img src="./images/ArrowMeal.svg" alt="ArrowMeal">
             </div>
           </div>
-          <button class="add_to btn_page2">+ Add To Cart</button>
+          <button data-bs-toggle="modal" data-bs-target="#exampleModal" class="add_to btn_page2">+ Add To Cart</button>
           <div class="counter hide">
             <button class="dec" name="del">-</button>
             <p class="amount"  name="num-tv">1</p>
             <button class="inc" name="add">+</button>
           </div>
         </div>
+
         <div class="item">
           <img src="./images/meal1.webp" class="img_meal" data-bs-toggle="modal" data-bs-target="#exampleModal"
             alt="meal">
@@ -289,11 +283,8 @@
             <h2 class="f-m">Meal Name</h2>
                <div class="love">
               <div class="state">
-
               </div>
-             
             </div>
-
           </div>
           <h3 class="f-s">Mighty Zinger Sandwich + Rizo + Coleslaw+ Drink</h3>
           <div class="price_customize">
@@ -306,13 +297,14 @@
               <img src="./images/ArrowMeal.svg" alt="ArrowMeal">
             </div>
           </div>
-          <button class="add_to btn_page2">+ Add To Cart</button>
+          <button data-bs-toggle="modal" data-bs-target="#exampleModal" class="add_to btn_page2">+ Add To Cart</button>
           <div class="counter hide">
             <button class="dec" name="del">-</button>
             <p class="amount"  name="num-tv">1</p>
             <button class="inc" name="add">+</button>
           </div>
         </div>
+
         <div class="item">
           <img src="./images/meal2.webp" class="img_meal" data-bs-toggle="modal" data-bs-target="#exampleModal"
             alt="meal">
@@ -320,11 +312,8 @@
             <h2 class="f-m">Meal Name</h2>
                <div class="love">
               <div class="state">
-
               </div>
-             
             </div>
-
           </div>
           <h3 class="f-s">Mighty Zinger Sandwich + Rizo + Coleslaw+ Drink</h3>
           <div class="price_customize">
@@ -337,7 +326,7 @@
               <img src="./images/ArrowMeal.svg" alt="ArrowMeal">
             </div>
           </div>
-          <button class="add_to btn_page2">+ Add To Cart</button>
+          <button data-bs-toggle="modal" data-bs-target="#exampleModal" class="add_to btn_page2">+ Add To Cart</button>
           <div class="counter hide">
             <button class="dec" name="del">-</button>
             <p class="amount"  name="num-tv">1</p>
@@ -346,28 +335,21 @@
         </div>
       </div>
     </div>
-    </div>
   </section>
+
   <section class="owl-menu container m-b">
-
     <h1 class="head_title">Best Sellers</h1>
-
-
     <div class="menu">
       <div class="owl-carousel owl-theme">
-
         <div class="item">
-          <img src="./images/meal1.webp" class="img_meal" data-bs-toggle="modal" data-bs-target="#exampleModal"
-            alt="meal">
+          <img src="./images/meal1.webp" class="img_meal" alt="meal" data-bs-toggle="modal"
+               data-bs-target="#exampleModal">
           <div class="name">
             <h2 class="f-m">Meal Name</h2>
-               <div class="love">
+            <div class="love">
               <div class="state">
-
               </div>
-             
             </div>
-
           </div>
           <h3 class="f-s">Mighty Zinger Sandwich + Rizo + Coleslaw+ Drink</h3>
           <div class="price_customize">
@@ -380,25 +362,23 @@
               <img src="./images/ArrowMeal.svg" alt="ArrowMeal">
             </div>
           </div>
-          <button class="add_to btn_page2">+ Add To Cart</button>
+          <button data-bs-toggle="modal" data-bs-target="#exampleModal" class="add_to btn_page2">+ Add To Cart</button>
           <div class="counter hide">
             <button class="dec" name="del">-</button>
             <p class="amount"  name="num-tv">1</p>
             <button class="inc" name="add">+</button>
           </div>
         </div>
+
         <div class="item">
           <img src="./images/meal2.webp" class="img_meal" data-bs-toggle="modal" data-bs-target="#exampleModal"
-            alt="meal">
+               alt="meal">
           <div class="name">
             <h2 class="f-m">Meal Name</h2>
-               <div class="love">
+            <div class="love">
               <div class="state">
-
               </div>
-             
             </div>
-
           </div>
           <h3 class="f-s">Mighty Zinger Sandwich + Rizo + Coleslaw+ Drink</h3>
           <div class="price_customize">
@@ -411,25 +391,23 @@
               <img src="./images/ArrowMeal.svg" alt="ArrowMeal">
             </div>
           </div>
-          <button class="add_to btn_page2">+ Add To Cart</button>
+          <button data-bs-toggle="modal" data-bs-target="#exampleModal" class="add_to btn_page2">+ Add To Cart</button>
           <div class="counter hide">
             <button class="dec" name="del">-</button>
             <p class="amount"  name="num-tv">1</p>
             <button class="inc" name="add">+</button>
           </div>
         </div>
+
         <div class="item">
           <img src="./images/meal3.webp" class="img_meal" data-bs-toggle="modal" data-bs-target="#exampleModal"
-            alt="meal">
+               alt="meal">
           <div class="name">
             <h2 class="f-m">Meal Name</h2>
-               <div class="love">
+            <div class="love">
               <div class="state">
-
               </div>
-             
             </div>
-
           </div>
           <h3 class="f-s">Mighty Zinger Sandwich + Rizo + Coleslaw+ Drink</h3>
           <div class="price_customize">
@@ -442,25 +420,23 @@
               <img src="./images/ArrowMeal.svg" alt="ArrowMeal">
             </div>
           </div>
-          <button class="add_to btn_page2">+ Add To Cart</button>
+          <button data-bs-toggle="modal" data-bs-target="#exampleModal" class="add_to btn_page2">+ Add To Cart</button>
           <div class="counter hide">
             <button class="dec" name="del">-</button>
             <p class="amount"  name="num-tv">1</p>
             <button class="inc" name="add">+</button>
           </div>
         </div>
+
         <div class="item">
           <img src="./images/meal4.webp" class="img_meal" data-bs-toggle="modal" data-bs-target="#exampleModal"
-            alt="meal">
+               alt="meal">
           <div class="name">
             <h2 class="f-m">Meal Name</h2>
-               <div class="love">
+            <div class="love">
               <div class="state">
-
               </div>
-             
             </div>
-
           </div>
           <h3 class="f-s">Mighty Zinger Sandwich + Rizo + Coleslaw+ Drink</h3>
           <div class="price_customize">
@@ -473,25 +449,23 @@
               <img src="./images/ArrowMeal.svg" alt="ArrowMeal">
             </div>
           </div>
-          <button class="add_to btn_page2">+ Add To Cart</button>
+          <button data-bs-toggle="modal" data-bs-target="#exampleModal" class="add_to btn_page2">+ Add To Cart</button>
           <div class="counter hide">
             <button class="dec" name="del">-</button>
             <p class="amount"  name="num-tv">1</p>
             <button class="inc" name="add">+</button>
           </div>
         </div>
+
         <div class="item">
           <img src="./images/meal1.webp" class="img_meal" data-bs-toggle="modal" data-bs-target="#exampleModal"
-            alt="meal">
+               alt="meal">
           <div class="name">
             <h2 class="f-m">Meal Name</h2>
-               <div class="love">
+            <div class="love">
               <div class="state">
-
               </div>
-             
             </div>
-
           </div>
           <h3 class="f-s">Mighty Zinger Sandwich + Rizo + Coleslaw+ Drink</h3>
           <div class="price_customize">
@@ -504,25 +478,23 @@
               <img src="./images/ArrowMeal.svg" alt="ArrowMeal">
             </div>
           </div>
-          <button class="add_to btn_page2">+ Add To Cart</button>
+          <button data-bs-toggle="modal" data-bs-target="#exampleModal" class="add_to btn_page2">+ Add To Cart</button>
           <div class="counter hide">
             <button class="dec" name="del">-</button>
             <p class="amount"  name="num-tv">1</p>
             <button class="inc" name="add">+</button>
           </div>
         </div>
+
         <div class="item">
           <img src="./images/meal2.webp" class="img_meal" data-bs-toggle="modal" data-bs-target="#exampleModal"
-            alt="meal">
+               alt="meal">
           <div class="name">
             <h2 class="f-m">Meal Name</h2>
-               <div class="love">
+            <div class="love">
               <div class="state">
-
               </div>
-             
             </div>
-
           </div>
           <h3 class="f-s">Mighty Zinger Sandwich + Rizo + Coleslaw+ Drink</h3>
           <div class="price_customize">
@@ -535,7 +507,7 @@
               <img src="./images/ArrowMeal.svg" alt="ArrowMeal">
             </div>
           </div>
-          <button class="add_to btn_page2">+ Add To Cart</button>
+          <button data-bs-toggle="modal" data-bs-target="#exampleModal" class="add_to btn_page2">+ Add To Cart</button>
           <div class="counter hide">
             <button class="dec" name="del">-</button>
             <p class="amount"  name="num-tv">1</p>
@@ -544,13 +516,13 @@
         </div>
       </div>
     </div>
-    </div>
   </section>
+
   <section class="pickUp container m-b">
     <div class="part1">
       <h2>Pick Up Your Order To Your Home</h2>
       <h3 class="f-s">beat the queue and place your order online</h3>
-      <a href="#" class="btn_page2">
+      <a href="menu.html" class="btn_page2">
         Order Now
       </a>
       <div class="steps">
@@ -558,7 +530,6 @@
           <img src="./images/step1.webp" alt="step">
           <p>Choose Meal</p>
         </div>
-
         <div class="step">
           <img src="./images/right-arrow.webp" class="steparrow" alt="arrow">
         </div>
@@ -578,7 +549,7 @@
     <div class="part2">
       <h4>Hungry !</h4>
       <p>Order your favorite items now</p>
-      <a href="#" class="btn_page">
+      <a href="menu.html" class="btn_page">
         Order Now
       </a>
       <img src="./images/mealHungry.webp" alt="mealHungry">
@@ -590,7 +561,7 @@
       <div class="container fotter_content">
         <div class="head">
           <h1>
-            <a href="">lOGO</a>
+            <a href="index.html">LOGO</a>
           </h1>
           <p>
             Items availability, prices, participation, delivery areas and charges, purchase requirements for delivery
@@ -600,22 +571,21 @@
         <div class="part">
           <h2>Links</h2>
           <div class="links">
-            <a href="">Home</a>
-            <a href="">Menu</a>
-            <a href="">Contact Us</a>
-
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="contact_us.html">Contact Us</a>
           </div>
         </div>
         <div class="part">
           <h2>Contact US</h2>
           <div class="contact2">
-            <a href="">
+            <a href="tel:+201101782890">
               <img src="./images/telephone.svg" alt="phone" />
-              <p style="direction: ltr">+20 125 124 1254</p>
+              <p style="direction: ltr">+20 110 178 2890</p>
             </a>
-            <a href="">
+            <a href="mailto:hello@aquadic.com">
               <img src="./images/mail.svg" alt="email" />
-              <p>example@gmail.com</p>
+              <p>hello@aquadic.com</p>
             </a>
           </div>
         </div>
@@ -623,17 +593,16 @@
       <div class="copy">
         <p>©All rights reserved.</p>
         <div class="links_social">
-          <a href="">
+          <a href="https://facebook.com/aquadicsoftwares">
             <img src="./images/facebook_logo.png" alt="facebook" />
           </a>
-
-          <a href="">
+          <a href="https://instagram.com/aquadicsoftwares">
             <img src="./images/instagram_logo.png" alt="instagram" />
           </a>
-          <a href="">
+          <a href="https://linkedin.com/aquadicsoftwares">
             <img src="./images/linkedin_logo.png" alt="linkedin" />
           </a>
-          <a href="">
+          <a href="https://x.com/aquadicsoftwares">
             <img src="./images/twitter_logo.png" alt="twitter" />
           </a>
         </div>
@@ -685,7 +654,7 @@
                 <div class="item">
                   <div class="itemInfo">
                     <img src="./images/salad.webp" alt="salad">
-                    <label for="">Lettuce</label>
+                    <label for="flexCheckDefault">Lettuce</label>
                   </div>
                   <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"
                     data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
@@ -708,7 +677,7 @@
                 <div class="item">
                   <div class="itemInfo">
                     <img src="./images/tomato.webp" alt="salad">
-                    <label for="">Tomato </label>
+                    <label for="flexCheckDefault">Tomato </label>
                   </div>
                   <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"
                     data-bs-toggle="collapse" data-bs-target="#collapsetwo" aria-expanded="true"
@@ -731,7 +700,7 @@
                 <div class="item">
                   <div class="itemInfo">
                     <img src="./images/cheese.webp" alt="cheese">
-                    <label for="">Cheese</label>
+                    <label for="flexCheckDefault">Cheese</label>
                   </div>
                   <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"
                     data-bs-toggle="collapse" data-bs-target="#collapsethree" aria-expanded="true"
@@ -759,7 +728,7 @@
                 <div class="item">
                   <div class="itemInfo">
                     <img src="./images/pepsican.webp" alt="Pepsi Can">
-                    <label for="">Pepsi Can</label>
+                    <label for="inlineRadio1">Pepsi Can</label>
                   </div>
                   <input class="form-check-input" type="radio" name="RadioOptionscan" id="inlineRadio1" value="option1">
                 </div>
@@ -767,28 +736,28 @@
                 <div class="item">
                   <div class="itemInfo">
                     <img src="./images/pepsican.webp" alt="Pepsi Can">
-                    <label for="">Pepsi Can</label>
+                    <label for="inlineRadio1">Pepsi Can</label>
                   </div>
                   <input class="form-check-input" type="radio" name="RadioOptionscan" id="inlineRadio1" value="option1">
                 </div>
                 <div class="item">
                   <div class="itemInfo">
                     <img src="./images/pepsican.webp" alt="Diet Pepsi Can">
-                    <label for="">Diet Pepsi Can</label>
+                    <label for="inlineRadio1">Diet Pepsi Can</label>
                   </div>
                   <input class="form-check-input" type="radio" name="RadioOptionscan" id="inlineRadio1" value="option2">
                 </div>
                 <div class="item">
                   <div class="itemInfo">
                     <img src="./images/7upcan.webp" alt="7Up Can">
-                    <label for="">7Up Can</label>
+                    <label for="inlineRadio1">7Up Can</label>
                   </div>
                   <input class="form-check-input" type="radio" name="RadioOptionscan" id="inlineRadio1" value="option1">
                 </div>
                 <div class="item">
                   <div class="itemInfo">
                     <img src="./images/mirindacan.webp" alt="Mirinda Can">
-                    <label for="">Mirinda Can</label>
+                    <label for="inlineRadio1">Mirinda Can</label>
                   </div>
                   <input class="form-check-input" type="radio" name="RadioOptionscan" id="inlineRadio1" value="option1">
                 </div>

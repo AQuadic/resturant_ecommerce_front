@@ -1,4 +1,4 @@
-<p align="center"><a href="https://aquadic.github.io/Resturant-Ecommerce" target="_blank"><img src="./images/shop.png" width="400"></a></p>
+<p align="center"><a href="https://aquadic.github.io/resturant_ecommerce_front" target="_blank"><img src="./images/shop.png" width="400"></a></p>
 
 Frontend Made by [AQuadic](https://aquadic.com)
 
@@ -9,17 +9,17 @@ Frontend Made by [AQuadic](https://aquadic.com)
 ## Important Links
 
 - [AQuadic](https://aquadic.com)
-- [Live Site](https://aquadic.github.io/Resturant-Ecommerce)
+- [Live Site](https://aquadic.github.io/resturant_ecommerce_front)
 
 ## Installation
 
 Clone the repository
 
-    git clone https://github.com/AQuadic/Resturant-Ecommerce.git
+    git clone https://github.com/AQuadic/resturant_ecommerce_front.git
 
 Switch to the repo folder
 
-    cd Resturant-Ecommerce
+    cd resturant_ecommerce_front
 
 open `index.html` and you're done.
 
