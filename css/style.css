@@ -616,23 +616,21 @@ html[dir="rtl"] .menu .item {
   font-size: 16px;
   line-height: 21px;
 }
-.menu .item .price_customize .part2,
-.pageMenu
-  .allmenu
-  .cart
-  .yourCart
-  .items
-  .item
-  .part1
-  .info
-  .info_item
-  .customize {
+
+.cart .yourCart .items .item .part1 .info .info_item .customize {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 4px;
   cursor: pointer;
 }
+
+.menu .item .price_customize .part2 {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
 .menu .item .price_customize .part2 p {
   font-size: 16px;
   line-height: 21px;
@@ -642,8 +640,6 @@ html[dir="rtl"] .menu .item {
 }
 html[dir="rtl"] .menu .item .price_customize .part2 img,
 html[dir="rtl"]
-  .pageMenu
-  .allmenu
   .cart
   .yourCart
   .items
@@ -1197,14 +1193,20 @@ footer .copy .links_social img {
 
   max-width: 266px;
 }
-.pageMenu .allmenu .cart {
+.menuCart {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.cart {
   min-width: 294px;
+  max-width: 400px;
   background: #ffffff;
   border-radius: 20px;
   height: 100%;
   flex: 1;
 }
-.pageMenu .allmenu .cart .empty {
+.cart .empty {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1213,20 +1215,20 @@ footer .copy .links_social img {
   text-align: center;
   padding: 44px 20px;
 }
-.pageMenu .allmenu .cart .empty img {
+.cart .empty img {
 }
-.pageMenu .allmenu .cart .empty p {
+.cart .empty p {
   font-size: 16px;
   line-height: 21px;
   text-align: center;
   color: #545454;
 }
-.pageMenu .allmenu .cart .empty span {
+.cart .empty span {
 }
 
-.pageMenu .allmenu .cart .yourCart {
+.cart .yourCart {
 }
-.pageMenu .allmenu .cart .yourCart h2 {
+.cart .yourCart h2 {
   font-size: 16px;
   line-height: 21px;
   text-align: center;
@@ -1239,134 +1241,108 @@ footer .copy .links_social img {
   border-radius: 20px 20px 0px 0px;
 }
 
-.pageMenu .allmenu .cart .yourCart .items {
+.cart .yourCart .items {
   background: #ffffff;
   display: flex;
   flex-direction: column;
   padding: 14px 10px;
   gap: 12px;
 }
-.pageMenu .allmenu .cart .yourCart .items .item {
+.cart .yourCart .items .item {
   padding-bottom: 12px;
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
-.pageMenu .allmenu .cart .yourCart .items .item:not(:last-of-type) {
+.cart .yourCart .items .item:not(:last-of-type) {
   border-bottom: 1px solid #eaeaea;
 }
-.pageMenu .allmenu .cart .yourCart .items .item .part1 {
+.cart .yourCart .items .item .part1 {
   display: flex;
   justify-content: space-between;
 }
-.pageMenu .allmenu .cart .yourCart .items .item .part1 .info {
+.cart .yourCart .items .item .part1 .info {
   display: flex;
   gap: 12px;
   align-items: center;
 }
-.pageMenu .allmenu .cart .yourCart .items .item .part1 .info img {
+.cart .yourCart .items .item .part1 .info img {
   height: 58px;
   width: auto;
 }
-.pageMenu .allmenu .cart .yourCart .items .item .part1 .info .info_item {
+.cart .yourCart .items .item .part1 .info .info_item {
 }
-.pageMenu .allmenu .cart .yourCart .items .item .part1 .info .info_item h3 {
+.cart .yourCart .items .item .part1 .info .info_item h3 {
   font-size: 16px;
   line-height: 21px;
   margin-bottom: 4px;
 }
-.pageMenu
-  .allmenu
-  .cart
-  .yourCart
-  .items
-  .item
-  .part1
-  .info
-  .info_item
-  .customize {
+
+.cart .yourCart .items .item .part1 .info .info_item .customize {
 }
-.pageMenu
-  .allmenu
-  .cart
-  .yourCart
-  .items
-  .item
-  .part1
-  .info
-  .info_item
-  .customize
-  p {
+
+.cart .yourCart .items .item .part1 .info .info_item .customize p {
   font-size: 12px;
   line-height: 16px;
   color: #ff754a;
 }
-.pageMenu
-  .allmenu
-  .cart
-  .yourCart
-  .items
-  .item
-  .part1
-  .info
-  .info_item
-  .customize
-  img {
+
+.cart .yourCart .items .item .part1 .info .info_item .customize img {
   width: auto;
   height: 10px;
 }
-.pageMenu .allmenu .cart .yourCart .items .item .part1 .delet {
+.cart .yourCart .items .item .part1 .delet {
   background-color: transparent;
   border: none;
 }
-.pageMenu .allmenu .cart .yourCart .items .item .part1 .delet img {
+.cart .yourCart .items .item .part1 .delet img {
   margin-top: 4px;
 }
-.pageMenu .allmenu .cart .yourCart .items .item .part2 {
+.cart .yourCart .items .item .part2 {
   display: flex;
   justify-content: space-between;
   gap: 10px;
   margin-top: 8px;
 }
-.pageMenu .allmenu .cart .yourCart .items .item .part2 .price_sall {
+.cart .yourCart .items .item .part2 .price_sall {
   display: flex;
   gap: 8px;
   align-items: center;
 }
-.pageMenu .allmenu .cart .yourCart .items .item .part2 .price_sall .sall {
+.cart .yourCart .items .item .part2 .price_sall .sall {
   font-size: 14px;
   line-height: 18px;
   text-decoration-line: line-through;
   color: #a7a7a7;
 }
-.pageMenu .allmenu .cart .yourCart .items .item .part2 .price_sall .price {
+.cart .yourCart .items .item .part2 .price_sall .price {
   font-size: 16px;
   line-height: 21px;
 }
-.pageMenu .allmenu .cart .yourCart .items .item .part2 .counter {
+.cart .yourCart .items .item .part2 .counter {
   gap: 20px;
 }
-.pageMenu .allmenu .cart .yourCart .items .item .part2 .counter p {
+.cart .yourCart .items .item .part2 .counter p {
   font-size: 16px;
 }
-.pageMenu .allmenu .cart .yourCart .items .item .part2 .counter button {
+.cart .yourCart .items .item .part2 .counter button {
   width: 28px;
   height: 28px;
   font-size: 20px;
 }
 
-.pageMenu .allmenu .cart .yourCart .endCart {
+.cart .yourCart .endCart {
   background: #ffffff;
   box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.05);
   border-radius: 0px 0px 20px 20px;
   padding: 12px 10px 18px;
 }
-.pageMenu .allmenu .cart .yourCart .endCart .price_amount {
+.cart .yourCart .endCart .price_amount {
   display: flex;
   align-items: center;
   gap: 12px;
 }
-.pageMenu .allmenu .cart .yourCart .endCart .price_amount h4 {
+.cart .yourCart .endCart .price_amount h4 {
   width: 30px;
   height: 30px;
   display: grid;
@@ -1378,19 +1354,19 @@ footer .copy .links_social img {
   border-radius: 50%;
   margin: 0;
 }
-.pageMenu .allmenu .cart .yourCart .endCart .price_amount .price {
+.cart .yourCart .endCart .price_amount .price {
 }
-.pageMenu .allmenu .cart .yourCart .endCart .price_amount .price h5 {
+.cart .yourCart .endCart .price_amount .price h5 {
   font-size: 16px;
   line-height: 21px;
   margin-bottom: 4px;
 }
-.pageMenu .allmenu .cart .yourCart .endCart .price_amount .price p {
+.cart .yourCart .endCart .price_amount .price p {
   font-size: 12px;
   line-height: 16px;
   color: #545454;
 }
-.pageMenu .allmenu .cart .yourCart .endCart a {
+.cart .yourCart .endCart a {
   font-size: 14px;
   line-height: 18px;
   width: 98%;
@@ -1422,6 +1398,14 @@ footer .copy .links_social img {
   }
   .pageMenu .options {
     gap: 30px;
+  }
+  .menuCart {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  .cart {
+    min-width: 424px;
   }
 }
 /*===========================================================end page menu=====================================*/
