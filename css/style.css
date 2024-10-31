@@ -1295,6 +1295,10 @@ footer .copy .links_social img {
   background-color: transparent;
   border: none;
 }
+.items .item .part1 .delet {
+  background-color: transparent;
+  border: none;
+}
 .cart .yourCart .items .item .part1 .delet img {
   margin-top: 4px;
 }
