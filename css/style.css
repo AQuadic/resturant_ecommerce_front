@@ -1435,6 +1435,17 @@ footer .copy .links_social img {
   display: flex;
   gap: 20px;
 }
+
+.items_orders {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.items_orders .empty {
+  text-align: center;
+}
 .carts .items {
   flex: 1;
 }
