@@ -557,8 +557,9 @@ html[dir="rtl"] .menu .item {
   left: 50%;
   transform: translateX(-50%);
   height: 150px;
-  width: auto;
+  width: 150px;
   cursor: pointer;
+  border-radius: 50%;
 }
 .menu .item .name {
   display: flex;
