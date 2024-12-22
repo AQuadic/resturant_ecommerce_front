@@ -583,7 +583,7 @@ html[dir="rtl"] .menu .item {
   margin-bottom: 8px;
 }
 .menu .item .name h2 {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 26px;
   margin: 0;
 }
@@ -723,6 +723,21 @@ html[dir="rtl"]
 }
 .menu.menu1 .owl-carousel .owl-stage-outer {
   padding: 60px 10px 20px;
+}
+
+@media (max-width: 400px) {
+  .menu .item {
+    max-width: 200px;
+  }
+  .menu .item h3 {
+    font-size: 12px;
+  }
+  .menu .item .add_to {
+    width: 150px;
+  }
+  .menu .item .price_customize {
+    flex-direction: column;
+  }
 }
 /*============================end menu======================*/
 
