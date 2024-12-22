@@ -220,19 +220,6 @@ html::-webkit-scrollbar-track {
 
 .navbar-nav {
   margin: 0 !important;
-  gap: 22px;
-}
-.navbar-collapse {
-  justify-content: space-between;
-}
-.navbar-brand {
-  font-size: 36px;
-  line-height: 44px;
-}
-.navbar-nav .nav-link {
-  font-size: 16px;
-  line-height: 21px;
-  color: black;
 }
 .navbar-nav .nav-link.active {
   color: var(--main_color);
@@ -244,8 +231,6 @@ html::-webkit-scrollbar-track {
   gap: 12px;
 }
 
-.navbar .dropdown {
-}
 .navbar .dropdown h4 {
   font-size: 16px;
   line-height: 21px;
@@ -284,7 +269,7 @@ html::-webkit-scrollbar-track {
 }
 .navbar .dropdown-menu {
   right: auto;
-  left: 50% !important;
+  left: 38% !important;
   transform: translateX(-50%) !important;
 }
 
@@ -303,6 +288,36 @@ html::-webkit-scrollbar-track {
   font-size: 16px;
   line-height: 21px;
   color: #4e4e4e;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -250px;
+  width: 250px;
+  height: 100%;
+  background-color: white;
+  overflow-y: auto;
+  transition: left 0.2s ease-in-out;
+  z-index: 999;
+}
+
+.sidebar.show {
+  left: 0;
+}
+
+.sidebar .nav-item {
+  padding: 15px;
+}
+
+.end_nav {
+  bottom: 20px;
+  left: 20px;
+  width: 100%;
+}
+
+.navbar-toggler-icon {
+  background-color: #fff;
 }
 @media (min-width: 992px) {
   .navbar-expand-lg {
