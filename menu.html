@@ -632,6 +632,20 @@
    })
   });
   </script> 
+
+<script>
+document.querySelectorAll('.options button').forEach(button => {
+    button.addEventListener('click', function() {
+        document.querySelectorAll('.options button').forEach(btn => {
+            btn.classList.remove('active');
+        });
+        
+        this.classList.add('active');
+    });
+});
+
+  
+  </script>
 </body>
 
 </html>
